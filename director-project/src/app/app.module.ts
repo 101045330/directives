@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 //import { BasicHighlightDirective } from './basic-highlight/basic-highlight.directive';
 import { NetterHighlightDirective } from './netter-highlight/netter-highlight.directive';
 import { NumberOnlyDirective } from './number-only.directive';
+import { NavigationComponent } from './navigation/navigation.component';
+import { HomeComponent } from './home/home.component';
+import { AllProductsComponent } from './all-products/all-products.component';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { CategoryProductsComponent } from './category-products/category-products.component';
 
 
 @NgModule({
@@ -13,11 +18,17 @@ import { NumberOnlyDirective } from './number-only.directive';
     AppComponent,
     NetterHighlightDirective,
     NumberOnlyDirective,
+    NavigationComponent,
+    HomeComponent,
+    AllProductsComponent,
+    ProductDetailComponent,
+    CategoryProductsComponent,
     //BasicHighlightDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
 
   ],
   providers: [],
